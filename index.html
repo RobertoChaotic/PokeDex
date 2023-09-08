@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="img/favicon-16x16.png"
+      type="image/x-icon"
+    />
+
+    <script src="index.js" defer></script>
+  </head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <body>
+    <main>
+      <img
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif"
+        alt="pokemon"
+        class="pokemon_image"
+      />
+
+      <h1 class="pokemon_data">
+        <span class="pokemon_number">6</span> -
+        <span class="pokemon_name">charmander</span>
+      </h1>
+
+      <form class="form">
+        <input
+          type="search"
+          class="input_search"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+
+      <div class="buttons">
+        <button class="button btn-prev">Prev &lt;</button>
+        <button class="button btn-next">&gt; Next</button>
+      </div>
+
+      <img src="img/pokedex.png" alt="pokedex" class="pokedex" />
+    </main>
+  </body>
+</html>
